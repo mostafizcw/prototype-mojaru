@@ -10,6 +10,16 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* ── Brand palette ─────────────────────────────────────────────────────
+     Equivalent to tailwind.config.ts → theme.extend.colors.brand.*
+     Usage: bg-brand-purple, text-brand-yellow, border-brand-pink, etc.
+  ────────────────────────────────────────────────────────────────────── */
+  --color-brand-purple: #552D80; /* Primary  — CTAs, headers               */
+  --color-brand-yellow: #FFCE3E; /* Secondary — highlights, badges          */
+  --color-brand-pink:   #E0295C; /* Accent 1  — urgent CTAs, important tags */
+  --color-brand-orange: #FF6600; /* Accent 2  — warm highlights, hovers     */
+  --color-brand-mint:   #E9FFF9; /* Accent 3  — light BGs, success states   */
 }
 
 @media (prefers-color-scheme: dark) {
